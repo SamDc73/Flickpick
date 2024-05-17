@@ -12,6 +12,14 @@ This notebook contains the main code for training the movie recommendation model
 - Employing techniques such as embedding layers, fully connected layers with non-linear activations, dropout regularization, and optimization algorithms like Adam to capture complex user-movie interactions and prevent overfitting.
 - Evaluating the trained model's performance useing Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE), and generating personalized movie recommendations based on the learned user and movie embeddings.
 
+### 2. tuning.ipynb
+
+This notebook focuses on hyperparameter tuning for the movie recommendation model, but due to computational resource limitations, the code in this notebook was written but not executed. It includes:
+
+- Implementing a grid search approach to explore different combinations of hyperparameters.
+- Utilizing k-fold cross-validation technique to evaluate the model's performance across different hyperparameter settings.
+- Identifying the best-performing hyperparameter configuration based on the cross-validation results.
+
 ## Models
 
 - The trained movie recommendation model has been serialized and saved in two different formats: PyTorch model checkpoint (.pth) and ONNX (Open Neural Network Exchange) format (.onnx).
